@@ -1,0 +1,112 @@
+html{
+  background-color:rgb(102, 96, 96);
+}
+
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container .box{
+  color: rgb(219, 203, 61);
+  font-size: 30px;
+  font-family: 'Alfa Slab One', cursive;
+  text-align: center;
+}
+
+.container2,
+.container5{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.container2 .main .self-intro{
+  color:#ffffff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.main-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container3{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.container3 .personality-1,
+.container3 .personality-2{
+  color:#ffffff;
+  font-size: 18px;
+  width:350px;
+  padding:10px;
+}
+
+img{
+  height: auto; 
+  width: auto; 
+  max-width: 450px; 
+  max-height:450px;
+}
+.container4{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.main-container .header{
+  color: rgb(219, 203, 61);
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Alfa Slab One';
+}
+
+.container4 >form{
+  color: #ffffff;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+   
+  } 
+
+ /* Extra large devices (large laptops and desktops, 1200px and up) */ 
+@media only screen and (min-width: 1200px) {
+    
+  }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  }
